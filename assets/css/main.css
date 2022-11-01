@@ -1425,12 +1425,29 @@ textarea {
 
 figure {
     padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 figure img {
-  max-width: 98%;
+  max-width: 60%;
 }
 
 .intro-img{
   padding: 10 10 10 150px;
+}
+
+.institutos{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  object-fit: cover;
+}
+.institutos img{
+  width: 90%;
+  height: 20%;
 }
